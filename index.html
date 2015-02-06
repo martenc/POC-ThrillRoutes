@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Thrill Routes</title>
+<style>
+    
+    html, body {
+      background: #333333;
+      width: 100%;
+      height: 100%;
+      margin: 0 0 0 0;
+      
+      line-height: normal;
+      color: #DEDEDE;
+      font-family: "AcuraBespoke-Book", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      font-weight: 400;
+      -webkit-text-stroke: 0.4px rgba(255, 255, 255, 0.5);
+      -webkit-font-smoothing: antialiased;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .dl-menu a {
+      font-weight: normal;
+      font-family: "AcuraBespoke-Book", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+      color: inherit;
+      -webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.5);
+    }
+    a {
+      color: #DEDEDE;
+      text-decoration: none;
+    }
+    a:hover {
+      color: #fff;
+    }
+
+    .map-frame {
+      margin-top: 60px;
+      width: 100%;
+      height: 90%;
+      position: relative;
+    }
+
+    .map-menu {
+      padding: 0px 9px 15px 20px;
+      z-index: 10;
+      position: absolute;
+      top: 0px;
+      left: 10px;
+      width: 300px;
+
+      background-color: #333333;
+      color: #DEDEDE;
+    }
+
+    .logo {
+      height: 35px;
+      position: absolute;
+      display: block;
+      top: -50px;
+      right: 25px;
+    }
+
+    .tagline {
+      height: 35px;
+      position: absolute;
+      display: block;
+      top: -42px;
+      float: left;
+      left: 30px;
+      color: #FFF;
+    }
+
+    .dealer-logo {
+      padding-bottom: 10px;
+      height: 100px;
+    }
+
+    .route-item {
+      position: relative;
+      border-bottom: 1px solid #ccc;
+      padding: .5em 0;
+      font-size: small;
+      width: 95%;
+      padding-top: 15px;
+    }
+
+    .route-item-distance {
+      float: right;
+    }
+
+    .icon-gmaps {
+      float: right;
+      display: block;
+      position: relative;
+      height: 17px;
+      padding-left: 5px;
+    }
+
+</style>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  </head>
+  <body>
+
+<div class="map-frame">
+  <iframe id="route-map" width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m35!1m12!1m3!1d26415.818610122977!2d-118.48553490000002!3d34.1469222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m20!1i0!3e0!4m5!1s0x80c297b128749399%3A0x7ce9d1f997c846!2sCenter+Acura%2C+5230+Van+Nuys+Blvd%2C+Los+Angeles%2C+CA+91401!3m2!1d34.165814999999995!2d-118.448456!4m3!3m2!1d34.1309381!2d-118.49068469999999!4m3!3m2!1d34.151042!2d-118.448971!4m3!3m2!1d34.165886!2d-118.4483702!5e0!3m2!1sen!2sus!4v1404943658325">
+</iframe>
+<div class="tagline">
+      Thrill Routes
+    </div>
+
+<img class="logo" src="images/acura_logo_gray.png"><br />
+  <div class="map-menu"> 
+
+    <img class="dealer-logo" src="images/sierra-acura-logo.jpg"><br /><br />
+    Sierra Acura of Alhambra<br />
+    1700 W Main St. <br />
+    Alhambra, CA <br /> 
+
+    <p>
+    <div class="routes">
+
+      <div class="route-item" id="route1">
+        <a href="#">Mulholland</a>
+        <a href="https://www.google.com/maps/dir/Center+Acura,+5230+Van+Nuys+Blvd,+Los+Angeles,+CA+91401/34.1309381,-118.4906847/34.151042,-118.448971/34.165886,-118.4483702/@34.1469222,-118.4855349,14z/data=!4m16!4m15!1m10!1m1!1s0x80c297b128749399:0x7ce9d1f997c846!2m2!1d-118.448456!2d34.165815!3m4!1m2!1d-118.483614!2d34.1551972!3s0x80c2978a2d64cc21:0x966bba4c0a8bd326!1m0!1m0!1m0!3e0" target="_blank"><img class="icon-gmaps" src="images/Google-Maps-icon-small.png" title="Open in Google Maps"></a>
+        <div class="route-item-distance">(26 min)</div> 
+      </div>
+      <div class="route-item" id="route2">
+        <a href="#">Beverly Glen</a>
+        <a href="https://www.google.com/maps/dir/Center+Acura,+5230+Van+Nuys+Blvd,+Los+Angeles,+CA+91401/34.1308419,-118.4426009/34.1373892,-118.4124927/34.165801,-118.44837/@34.144493,-118.4562664,14z/data=!4m21!4m20!1m10!1m1!1s0x80c297b128749399:0x7ce9d1f997c846!2m2!1d-118.448456!2d34.165815!3m4!1m2!1d-118.4486994!2d34.1555291!3s0x80c297c8dec19381:0xc32096499bc5bb79!1m0!1m5!3m4!1m2!1d-118.4478621!2d34.150788!3s0x80c297ce3a5c537b:0xb75590ac46a04d4c!1m0!3e0" target="_blank"><img class="icon-gmaps" src="images/Google-Maps-icon-small.png" title="Open in Google Maps"></a>
+        <div class="route-item-distance">(28 min)</div>
+      </div>
+      <div class="route-item" id="route3">
+        <a href="#">Valley Vista</a>
+        <a href="https://www.google.com/maps/dir/Center+Acura,+5230+Van+Nuys+Blvd,+Los+Angeles,+CA+91401/34.1460844,-118.4610695/34.14898,-118.4679787/34.165801,-118.44837/@34.1450732,-118.4720127,14z/data=!4m11!4m10!1m5!1m1!1s0x80c297b128749399:0x7ce9d1f997c846!2m2!1d-118.448456!2d34.165815!1m0!1m0!1m0!3e0" target="_blank"><img class="icon-gmaps" src="images/Google-Maps-icon-small.png" title="Open in Google Maps"></a> 
+        <div class="route-item-distance">(14 min)</div> 
+      </div>
+
+    </div>
+    </p>
+
+</div>
+
+<script type="text/javascript">
+
+function getParameterByName(name) {
+    name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+    var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+        results = regex.exec(location.search);
+    return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+}
+
+var routeId = getParameterByName('route');
+
+
+var route1 = "https://www.google.com/maps/embed?pb=!1m31!1m8!1m3!1d26415.818610122977!2d-118.4855349!3d34.1469222!3m2!1i1024!2i768!4f13.1!4m20!1i0!3e0!4m5!1s0x80c297b128749399%3A0x7ce9d1f997c846!2sCenter+Acura%2C+5230+Van+Nuys+Blvd%2C+Los+Angeles%2C+CA+91401!3m2!1d34.165814999999995!2d-118.448456!4m3!3m2!1d34.1309381!2d-118.49068469999999!4m3!3m2!1d34.151042!2d-118.448971!4m3!3m2!1d34.165886!2d-118.4483702!5e0!3m2!1sen!2sus!4v1404954744439";
+
+var route2 = "https://www.google.com/maps/embed?pb=!1m31!1m8!1m3!1d26416.578198524872!2d-118.4562664!3d34.144493!3m2!1i1024!2i768!4f13.1!4m20!1i0!3e0!4m5!1s0x80c297b128749399%3A0x7ce9d1f997c846!2sCenter+Acura%2C+5230+Van+Nuys+Blvd%2C+Los+Angeles%2C+CA+91401!3m2!1d34.165814999999995!2d-118.448456!4m3!3m2!1d34.1308419!2d-118.44260089999999!4m3!3m2!1d34.1373892!2d-118.4124927!4m3!3m2!1d34.165801!2d-118.44837!5e0!3m2!1sen!2sus!4v1404954620244";
+
+var route3 = "https://www.google.com/maps/embed?pb=!1m31!1m8!1m3!1d26416.39677966037!2d-118.4720127!3d34.1450732!3m2!1i1024!2i768!4f13.1!4m20!1i0!3e0!4m5!1s0x80c297b128749399%3A0x7ce9d1f997c846!2sCenter+Acura%2C+5230+Van+Nuys+Blvd%2C+Los+Angeles%2C+CA+91401!3m2!1d34.165814999999995!2d-118.448456!4m3!3m2!1d34.1460844!2d-118.4610695!4m3!3m2!1d34.14898!2d-118.46797869999999!4m3!3m2!1d34.165801!2d-118.44837!5e0!3m2!1sen!2sus!4v1404954664879";
+
+
+$(document).ready(function(){
+
+
+  $('#route1').click(function() {  
+    document.getElementById('route-map').contentWindow.location = route1;
+    document.getElementById('route-map').contentWindow.location.reload();
+  });
+  $('#route2').click(function() {  
+    document.getElementById('route-map').contentWindow.location = route2;
+    document.getElementById('route-map').contentWindow.location.reload();
+  });
+  $('#route3').click(function() {  
+    document.getElementById('route-map').contentWindow.location = route3;
+    document.getElementById('route-map').contentWindow.location.reload();
+  });
+
+
+});
+
+
+</script>
+
+</body>
+</html>

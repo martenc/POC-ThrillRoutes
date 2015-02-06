@@ -1,0 +1,3000 @@
+@charset "CP850";
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol,ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption,th,td {
+  text-align: left;
+  font-weigh
+ t: normal;
+  vertical-align: middle;
+}
+
+q,blockquote {
+  quotes: none;
+}
+
+q:before,q:after,blockquote:before,blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary {
+  display: block;
+}
+
+.hidden {
+  display: none !important;
+  visibility: hidden;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix:before,.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}/* normalize.css v2.1.3 | MIT License | git.io/normalize */article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary {
+  display: block;
+}
+
+audio,canvas,video {
+  display: inline-block;
+}
+
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+[hidden],template {
+  display: none;
+}
+
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  background: transparent;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active,a:hover {
+  outline: 0;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+b,strong {
+  font-weight: bold;
+}
+
+dfn {
+  font-style: italic;
+}
+
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+code,kbd,pre,samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+pre {
+  white-space: pre-wrap;
+}
+
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+small {
+  font-size: 80%;
+}
+
+sub,sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+img {
+  border: 0;
+}
+
+svg:not(:root) {
+  overflow: hidden;
+}
+
+figure {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+legend {
+  border: 0;
+  padding: 0;
+}
+
+button,input,select,textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+button,input {
+  line-height: normal;
+}
+
+button,select {
+  text-transform: none;
+}
+
+button,html input[type="button"],input[type="reset"],input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+button[disabled],html input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"],input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner,input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  font-size: 80%;
+  line-height: 1.6;
+  color: #1d3247;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a:link,a:visited,a:focus,.no-touch a:hover,a:active {
+  text-decoration: none;
+  color: #1d3247;
+}
+
+.no-touch a:hover {
+  text-decoration: none;
+  color: #bd0c1d;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight: normal;
+  font-family: "PorscheFranklinGothic",Arial,sans-serif;
+}
+
+.russia h1,.japan h1,.eastern-europe h1,.russia h2,.japan h2,.eastern-europe h2,.russia h3,.japan h3,.eastern-europe h3,.russia h4,.japan h4,.eastern-europe h4,.russia h5,.japan h5,.eastern-europe h5,.russia h6,.japan h6,.eastern-europe h6 {
+  font-family: Arial,sans-serif;
+  font-weight: normal;
+}
+
+.poland h1,.poland h2,.poland h3,.poland h4,.poland h5,.poland h6 {
+  font-family: "PorscheFranklinGothic-Extended",Arial,sans-serif;
+}
+
+.china h1,.china h2,.china h3,.china h4,.china h5,.china h6 {
+  font-family: "Microsoft Yahei","Arial","宋体","SimSun","Helvetica","Sans-Serif";
+}
+
+.PorscheNewsGothicBold {
+  font-family: "PorscheNewsGothicBold",Arial,sans-serif;
+}
+
+.russia .PorscheNewsGothicBold,.japan .PorscheNewsGothicBold,.eastern-europe .PorscheNewsGothicBold {
+  font-family: Arial,sans-serif;
+}
+
+.poland .PorscheNewsGothicBold {
+  font-family: "PorscheNewsGothicBold-Extended",Arial,sans-serif;
+}
+
+.china .PorscheNewsGothicBold {
+  font-family: "Microsoft Yahei","Arial","宋体","SimSun","Helvetica","Sans-Serif";
+}
+
+.PorscheNewsGothic,h2 {
+  font-family: "PorscheNewsGothic",Arial,sans-serif;
+}
+
+.russia .PorscheNewsGothic,.russia h2,.japan .PorscheNewsGothic,.japan h2,.eastern-europe .PorscheNewsGothic,.eastern-europe h2 {
+  font-family: Arial,sans-serif;
+}
+
+.poland .PorscheNewsGothic,.poland h2 {
+  font-family: "PorscheNewsGothic-Extended",Arial,sans-serif;
+}
+
+.china .PorscheNewsGothic,.china h2 {
+  font-family: "Microsoft Yahei","Arial","宋体","SimSun","Helvetica","Sans-Serif";
+}
+
+.PorscheFranklinGothic {
+  font-family: "PorscheFranklinGothic",Arial,sans-serif;
+}
+
+.russia .PorscheFranklinGothic,.japan .PorscheFranklinGothic,.eastern-europe .PorscheFranklinGothic {
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+}
+
+.poland .PorscheFranklinGothic {
+  font-family: "PorscheFranklinGothic-Extended",Arial,sans-serif;
+}
+
+.china .PorscheFranklinGothic {
+  font-family: "Microsoft Yahei","Arial","宋体","SimSun","Helvetica","Sans-Serif";
+}
+
+h1 {
+  font-size: 2em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin-top: 0.83em;
+  margin-bottom: 0.83em;
+}
+
+h3 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+h4 {
+  font-size: 1em;
+  margin-top: 1.33em;
+  margin-bottom: 1.33em;
+}
+
+h5 {
+  font-size: 0.83em;
+  margin-top: 1.67em;
+  margin-bottom: 1.67em;
+}
+
+h6 {
+  font-size: 0.67em;
+  margin-top: 2.33em;
+  margin-bottom: 2.33em;
+}
+
+.sharefacebook {
+  background-position: 0 0px;
+}
+
+.sharegmail {
+  background-position: 0 -50px;
+}
+
+.shareprint {
+  background-position: 0 -100px;
+}
+
+.shareigoogle {
+  background-position: 0 -150px;
+}
+
+.sharemyspace {
+  background-position: 0 -200px;
+}
+
+.sharedelicious {
+  background-position: 0 -250px;
+}
+
+.sharelinkedin {
+  background-position: 0 -300px;
+}
+
+.sharetwitter {
+  background-position: 0 -350px;
+}
+
+.shareyahoo {
+  background-position: 0 -400px;
+}
+
+.shareyahoo-jp {
+  background-position: 0 -400px;
+}
+
+.sharedigg {
+  background-position: 0 -450px;
+}
+
+.shareyoutube {
+  background-position: 0 -500px;
+}
+
+.sharebaidu {
+  background-position: 0 -550px;
+}
+
+.sharemail {
+  background-position: 0 -600px;
+}
+
+.sharepinterest {
+  background-position: 0 -650px;
+}
+
+.sharegoogle {
+  background-position: 0 -700px;
+}
+
+.sharesina {
+  background-position: 0 -750px;
+}
+
+.sharerenren {
+  background-position: 0 -800px;
+}
+
+.shareqqspace {
+  background-position: 0 -850px;
+}
+
+.sharesohu {
+  background-position: 0 -900px;
+}
+
+.shareqq {
+  background-position: 0 -950px;
+}
+
+.sharekaixin {
+  background-position: 0 -1000px;
+}
+
+.sharetecent {
+  background-position: 0 -1050px;
+}
+
+.sharehatena {
+  background-position: 0 -1100px;
+}
+
+.sharevkontakte {
+  background-position: 0 -1150px;
+}
+
+.shareskyrock {
+  background-position: 0 -1200px;
+}
+
+.shareviadeo {
+  background-position: 0 -1250px;
+}
+
+.sharehyves {
+  background-position: 0 -1300px;
+}
+
+.socialFlyout {
+  font-family: verdana;
+}
+
+.socialFlyout ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.socialFlyout li {
+  display: block;
+  float: left;
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+  margin: 0 15px 15px 0;
+}
+
+.socialFlyout .iconBtn {
+  width: 100%;
+  height: 100%;
+  display: block;
+  float: left;
+}
+
+.socialFlyout .icon {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-image: url("../../images/share-icons/share_icons_transparent.png");
+  background-repeat: no-repeat;
+}
+
+.socialFlyout span.captionCont {
+  display: none;
+}
+
+.followus {
+  margin-top: 15px;
+}
+
+.followus a {
+  display: block;
+  float: left;
+  width: 33px;
+  height: 33px;
+  cursor: pointer;
+  margin: 0 15px 15px 0;
+}
+
+.followus .facebook {
+  background: url("../../images/share-icons/share_icons_transparent.png") 0 0 no-repeat transparent;
+}
+
+.followus .youtube {
+  background: url("../../images/share-icons/share_icons_transparent.png") 0 -500px no-repeat transparent;
+}
+
+.followus .google {
+  background: url("../../images/share-icons/share_icons_transparent.png") 0 -700px no-repeat transparent;
+}
+
+.followus .pinterest {
+  background: url("../../images/share-icons/share_icons_transparent.png") 0 -650px no-repeat transparent;
+}
+
+@media (min-resolution: 192dppx), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2 / 1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .socialFlyout .icon {
+    background-image: url("../../images/share-icons/share_icons_transparent@2x.png");
+    background-size: 100% auto;
+  }
+}
+
+.userLocationModule {
+  margin-bottom: 2em;
+  padding: 0.25em 36px 0.25em 0.5em;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  position: relative;
+}
+
+.userLocationModule input {
+  background: none;
+  border: none;
+  width: 100%;
+  outline: none;
+}
+
+.userLocationModule .userLocationModuleIcon {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+}
+
+.userLocationModule .userLocationModuleIcon.userLocationModuleIconSearch {
+  display: none;
+}
+
+.userLocationModule .userLocationModuleIcon.userLocationModuleIconLocate {
+  display: block;
+}
+
+.userLocationModule.active {
+  border-color: #bd0c1d;
+}
+
+.userLocationModule.search .userLocationModuleIcon.userLocationModuleIconSearch {
+  display: block;
+}
+
+.userLocationModule.search .userLocationModuleIcon.userLocationModuleIconLocate {
+  display: none;
+}
+
+.main {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+.main-inner {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.main-inner .header,.main-inner .contentService,.main-inner .footer,.main-inner .appInfoDetail {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.device-template-loader-ready .pageLoader,.show-open-in-app-question-layer .pageLoader,.show-single-track .pageLoader {
+  display: none;
+}
+
+.layerDarkener {
+  display: none;
+}
+
+.layerDarkener {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  background-color: #000000;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+  opacity: 0.75;
+}
+
+.clear {
+  clear: both;
+}
+
+.hiddenLabel {
+  display: none;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.clickable.inactive {
+  cursor: default;
+}
+
+.hoverable .hover {
+  display: none;
+}
+
+.no-touch .hoverable:hover .icon {
+  display: none;
+}
+
+.no-touch .hoverable:hover .hover {
+  display: block;
+}
+
+.no-touch .hoverable.inactive:hover .hover {
+  display: none;
+}
+
+.no-touch .hoverable.inactive:hover .inactive {
+  display: block;
+}
+
+.activatable .active {
+  display: none;
+}
+
+.activatable.active .icon {
+  display: none;
+}
+
+.activatable.active .active {
+  display: block;
+}
+
+.inactivatable .inactive {
+  display: none;
+}
+
+.inactivatable.inactive .icon {
+  display: none;
+}
+
+.inactivatable.inactive .inactive {
+  display: block;
+}
+
+.errorContainer {
+  padding: 0 1em;
+  color: #bd0c1d;
+  border: 1px solid #bd0c1d;
+}
+
+.errorContainer .error {
+  font-weight: bold;
+  display: block;
+  margin: 1em 0 0.5em 0;
+}
+
+.errorContainer .error.errorSubline {
+  font-weight: normal;
+  margin: 0 0 1em 0;
+}
+
+.icon {
+  display: block;
+}
+
+.iconLabel {
+  display: inline-block;
+}
+
+.iconContainer {
+  position: relative;
+}
+
+.iconContainer .icon {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.iconContainer .iconLabel {
+  display: block;
+}
+
+.no-backgroundsize .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon {
+  display: none !important;
+}
+
+.no-backgroundsize .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon {
+  display: block;
+}
+
+.backgroundsize .iconContainer.no-backgroundsize-icon-container:hover .icon.backgroundsize-icon,.backgroundsize .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon {
+  display: block;
+}
+
+.backgroundsize .iconContainer.no-backgroundsize-icon-container:hover .icon.no-backgroundsize-icon,.backgroundsize .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon {
+  display: none !important;
+}
+
+.icon-app-store-badge {
+  width: 135px;
+  height: 40px;
+}
+
+.icon-double-nav {
+  width: 15px;
+  height: 18px;
+  margin-bottom: -2px;
+}
+
+.icon-single-nav {
+  width: 10px;
+  height: 18px;
+}
+
+.icon-close {
+  width: 16px;
+  height: 16px;
+}
+
+.paging-indicators {
+  width: 10px;
+  height: 10px;
+}
+
+.icon-info-route-code {
+  width: 14px;
+  height: 14px;
+}
+
+.icon-geolocating-container,.icon-geolocating-search-container {
+  width: 16px;
+  height: 16px;
+}
+
+.header .porsche {
+  text-align: center;
+  height: 90px;
+}
+
+.header .porsche .button.logoPorsche img {
+  margin-top: 15px;
+}
+
+.header .porsche .menu {
+  display: none;
+}
+
+.header .emotional {
+  position: relative;
+}
+
+.header .emotional .background {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.header .emotional .background img {
+  width: 100%;
+  height: auto;
+}
+
+.header .emotional .linkBar {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  z-index: 7;
+}
+
+.header .emotional .linkBar .button {
+  margin-right: 1px;
+  display: block;
+  float: right;
+  padding: .85em 1em;
+  color: #fff;
+}
+
+.no-touch .header .emotional .linkBar .button {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.no-touch .header .emotional .linkBar .button:hover {
+  background-color: #fff;
+}
+
+.header .emotional .linkBar .button.requestInformation {
+  background-color: #bd0c1d;
+}
+
+.no-touch .header .emotional .linkBar .button.requestInformation:hover {
+  color: #bd0c1d;
+}
+
+.header .emotional .linkBar .button.modelPage {
+  background-color: #1d3247;
+}
+
+.no-touch .header .emotional .linkBar .button.modelPage:hover {
+  color: #1d3247;
+}
+
+.header .emotional .intro {
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  z-index: 5;
+  color: #1d3247;
+  width: 31%;
+}
+
+.header .emotional .intro h1 {
+  font-size: 7.5em;
+  margin: 0;
+  line-height: 1em;
+  margin-left: -2px;
+}
+
+.russia .header .emotional .intro h1,.eastern-europe .header .emotional .intro h1 {
+  font-size: 3.5em;
+}
+
+.poland .header .emotional .intro h1,.it .header .emotional .intro h1,.es .header .emotional .intro h1,.fr .header .emotional .intro h1,.pt .header .emotional .intro h1 {
+  font-size: 7em;
+}
+
+.header .emotional .intro h2 {
+  margin: 0;
+  line-height: 1em;
+}
+
+.china .header .emotional .intro h2 {
+  line-height: 1.3;
+}
+
+.poland .header .emotional .intro h2,.china .header .emotional .intro h2,.russia .header .emotional .intro h2,.eastern-europe .header .emotional .intro h2 {
+  margin-top: .3em;
+}
+
+.header .emotional .intro .copy {
+  margin: 1em 0 0 0;
+}
+
+.header .emotional .intro .headerEconomy .underline {
+  text-decoration: underline;
+}
+
+.header .emotional .intro .headerEconomy a {
+  display: block;
+  padding: 1em 0 0 0;
+}
+
+.header .emotional .appIntro {
+  position: absolute;
+  bottom: 5%;
+  right: 3%;
+  z-index: 3;
+  width: 60%;
+  color: #fff;
+  text-align: right;
+}
+
+.header .emotional .appIntro img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.header .emotional .appIntro .inner {
+  margin: 0 130px 0 0;
+  float: right;
+}
+
+.header .emotional .appIntro .inner h1 {
+  font-size: 4em;
+  margin: 0;
+  line-height: 1em;
+  margin-right: -2px;
+}
+
+.japan .header .emotional .appIntro .inner h1,.china .header .emotional .appIntro .inner h1,.russia .header .emotional .appIntro .inner h1,.eastern-europe .header .emotional .appIntro .inner h1 {
+  font-size: 3.5em;
+}
+
+.it .header .emotional .appIntro .inner h1,.es .header .emotional .appIntro .inner h1,.pt .header .emotional .appIntro .inner h1 {
+  font-size: 3.7em;
+}
+
+.header .emotional .appIntro .inner h2 {
+  margin: 0;
+  line-height: 1em;
+}
+
+.china .header .emotional .appIntro .inner h2,.russia .header .emotional .appIntro .inner h2,.eastern-europe .header .emotional .appIntro .inner h2 {
+  margin-top: .2em;
+}
+
+.header .emotional .appIntro .inner .copy {
+  margin: 1em 0 1.5em 0;
+}
+
+.header .emotional .appIntro .inner .appinfo {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.russia .header .emotional .appIntro .inner .appinfo,.eastern-europe .header .emotional .appIntro .inner .appinfo,.china .header .emotional .appIntro .inner .appinfo {
+  display: block;
+}
+
+.header .emotional .appIntro .inner .apple_appstore {
+  float: right;
+}
+
+.header .emotional .appIntro .inner .apple_appstore .alt {
+  display: none;
+}
+
+.footer .top {
+  padding: 2em 0;
+}
+
+.footer .top .inner {
+  margin: 0 0 2em 0;
+}
+
+.footer .top .inner.fullWidth .footerTile {
+  width: 94%;
+}
+
+.footer .top .inner.halfWidth .footerTile {
+  width: 44.5%;
+}
+
+.footer .top .inner.thirdWidth .footerTile {
+  width: 28%;
+}
+
+.footer .top .footerTile {
+  margin-right: 5%;
+  float: left;
+}
+
+.footer .top .footerTile.first {
+  margin-left: 3%;
+}
+
+.footer .top .footerTile.last {
+  margin-right: 3%;
+}
+
+.footer .top .footerTile h3 {
+  margin: 0 0 0.2em 0;
+  color: #1d3247;
+}
+
+.footer .top .footerTile.share h3 {
+  margin-bottom: .4em;
+}
+
+.footer .top .footerTile .iconContainer.highlight,.footer .top .footerTile .icon.hover {
+  display: none;
+}
+
+.footer .top .footerTile .inner {
+  display: block;
+}
+
+.no-touch .footer .top .footerTile .button .icon {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+  -webkit-transition-property: opacity;
+  -moz-transition-property: opacity;
+  -o-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.75s;
+  -moz-transition-duration: 0.75s;
+  -o-transition-duration: 0.75s;
+  transition-duration: 0.75s;
+}
+
+.no-touch .footer .top .footerTile .button .icon.hover {
+  display: block;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+.no-touch .footer .top .footerTile .button * {
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.25s;
+  -moz-transition-duration: 0.25s;
+  -o-transition-duration: 0.25s;
+  transition-duration: 0.25s;
+}
+
+.no-touch .footer .top .footerTile .button:hover * {
+  color: #bd0c1d;
+}
+
+.no-touch .footer .top .footerTile .button:hover .icon {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+}
+
+.no-touch .footer .top .footerTile .button:hover .icon.hover {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+  opacity: 1;
+}
+
+.footer .bottom {
+  padding: 2em 3%;
+}
+
+.footer .bottom h3 {
+  margin: 2em 0 1em 0;
+}
+
+.footer .legal a {
+  text-decoration: underline;
+}
+
+.footer .disclaimer {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.footer .disclaimer .title,.footer .disclaimer .economy,.footer .disclaimer .long {
+  display: block;
+}
+
+.footer .disclaimer .title .economyDisclaimer a,.footer .disclaimer .economy .economyDisclaimer a,.footer .disclaimer .long .economyDisclaimer a {
+  font-weight: bold;
+}
+
+.footer .disclaimer .economy {
+  margin: 0 0 .6em 0;
+}
+
+.footer .imagesDisclaimer {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 2em;
+}
+
+.footer .imagesDisclaimer .long span:after {
+  content: ' | ';
+  color: #ccc;
+}
+
+.footer .imagesDisclaimer .long span.last:after {
+  content: '';
+  color: #ccc;
+}
+
+.followusContainer {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.followusContainer .followus-icon {
+  width: 33px;
+  height: 33px;
+  display: block;
+  float: left;
+  margin: 0 15px 15px 0;
+  background-image: url("../../images/share-icons/share_icons_transparent.png");
+  background-repeat: no-repeat;
+}
+
+.followusContainer .followus-icon span {
+  display: none;
+}
+
+.followus-facebook {
+  background-position: 0 0px;
+}
+
+.followus-gmail {
+  background-position: 0 -50px;
+}
+
+.followus-print {
+  background-position: 0 -100px;
+}
+
+.followus-igoogle {
+  background-position: 0 -150px;
+}
+
+.followus-myspace {
+  background-position: 0 -200px;
+}
+
+.followus-delicious {
+  background-position: 0 -250px;
+}
+
+.followus-linkedin {
+  background-position: 0 -300px;
+}
+
+.followus-twitter {
+  background-position: 0 -350px;
+}
+
+.followus-yahoo {
+  background-position: 0 -400px;
+}
+
+.followus-yahoo-jp {
+  background-position: 0 -400px;
+}
+
+.followus-digg {
+  background-position: 0 -450px;
+}
+
+.followus-youtube {
+  background-position: 0 -500px;
+}
+
+.followus-baidu {
+  background-position: 0 -550px;
+}
+
+.followus-mail {
+  background-position: 0 -600px;
+}
+
+.followus-pinterest {
+  background-position: 0 -650px;
+}
+
+.followus-google {
+  background-position: 0 -700px;
+}
+
+.followus-sina {
+  background-position: 0 -750px;
+}
+
+.followus-renren {
+  background-position: 0 -800px;
+}
+
+.followus-qqspace {
+  background-position: 0 -850px;
+}
+
+.followus-sohu {
+  background-position: 0 -900px;
+}
+
+.followus-qq {
+  background-position: 0 -950px;
+}
+
+.followus-kaixin {
+  background-position: 0 -1000px;
+}
+
+.followus-tecent {
+  background-position: 0 -1050px;
+}
+
+.followus-hatena {
+  background-position: 0 -1100px;
+}
+
+.followus-vkontakte {
+  background-position: 0 -1150px;
+}
+
+.followus-skyrock {
+  background-position: 0 -1200px;
+}
+
+.followus-viadeo {
+  background-position: 0 -1250px;
+}
+
+.followus-hyves {
+  background-position: 0 -1300px;
+}
+
+.appInfoDetailWrapper {
+  background-color: #f2f2f2;
+}
+
+.appInfoDetail {
+  padding: 3.5em 3%;
+  margin: 0;
+}
+
+.appInfoDetail .appInfoHeadline {
+  display: none;
+}
+
+.appInfoDetail .appInfoGallery,.appInfoDetail .appInfoDetailBody {
+  float: left;
+}
+
+.appInfoDetail .appInfoGallery {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  width: 41.66667%;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner {
+  position: relative;
+  width: 193px;
+  height: 405px;
+  margin: 0 auto;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  top: 190px;
+  margin-top: -13px;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.left {
+  margin-right: -16px;
+  right: 110%;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.right {
+  margin-left: -16px;
+  left: 110%;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn .icon {
+  background-position: center center;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryIndicatorWrapper {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0;
+  line-height: 0;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryIndicatorWrapper .galleryIndicator {
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .inner {
+  position: relative;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .overlay {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .slider {
+  position: absolute;
+  top: 59px;
+  left: 16px;
+  overflow: hidden;
+  width: 161px;
+  height: 285px;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .slider .sliderWrapper {
+  height: 100%;
+}
+
+.appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .slider .sliderWrapper img {
+  float: left;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: auto;
+}
+
+.appInfoDetail .appInfoDetailBody {
+  width: 58.33333%;
+  padding: 2em 0;
+}
+
+.appInfoDetail .appInfoDetailBody h3 {
+  margin: 0;
+}
+
+.appInfoDetail .appInfoDetailBody p {
+  padding-right: 15%;
+  margin: 1em 0;
+}
+
+.appInfoDetail .appInfoDetailBody .apple_appstore {
+  margin-top: 2em;
+  display: inline-block;
+}
+
+.appInfoDetail .appInfoDetailBody .apple_appstore .alt {
+  display: none;
+}
+
+.contentService {
+  position: relative;
+  padding: 2em 3%;
+  margin: 0;
+}
+
+.contentService .serviceLoader {
+  text-align: center;
+  padding: 4em 0;
+}
+
+.contentService .serviceLoader img {
+  width: 50px;
+  height: 50px;
+}
+
+.contentService .tabNavigation {
+  position: absolute;
+  bottom: 100%;
+  z-index: 20;
+}
+
+/*
+.contentService .tabNavigation .tabNavigationBtn {
+  float: left;
+  background: #f2f2f2 url("../../images/shadows/horizontal_right.png") no-repeat left bottom;
+  margin-right: 5px;
+  margin-top: 6px;
+  width: 60px;
+  height: 44px;
+}
+*/
+
+.contentService .tabNavigation .tabNavigationBtn .icon {
+  background-position: center center;
+  background-size: 30px 30px;
+}
+
+.contentService .tabNavigation .tabNavigationBtn.active {
+  background-image: none;
+  background-color: #fff;
+  margin-top: 0;
+  height: 50px;
+}
+
+.no-touch .contentService .tabNavigation .tabNavigationBtn:hover {
+  background-image: none;
+  background-color: #fff;
+}
+
+.contentService .contentServiceContent {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.contentService .contentServiceContent .tabContents {
+  float: left;
+  width: 41.66667%;
+  padding-bottom: 2em;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent {
+  padding: 0 50px 0 0;
+  display: none;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent.active {
+  display: block;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent h3 {
+  margin: 0;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent h4 {
+  margin: 0.25em 0 1em 0;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement {
+  position: relative;
+  border-bottom: 1px solid #ccc;
+  padding: .5em 0;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement.active .routeListHeader * {
+  color: #bd0c1d;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement.active .routeListInfoElement .icon {
+  display: block;
+}
+
+.no-touch .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement:hover .routeListHeader * {
+  color: #bd0c1d;
+}
+
+.no-touch .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement .icon {
+  display: block;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement .icon {
+  display: block;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement .icon.filter {
+  display: none;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListHeader .routeListName {
+  font-size: 1.3em;
+  line-height: 1.0em;
+  font-weight: bold;
+  display: block;
+  padding-top: 6px;
+  padding-bottom: 14px;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListHeader .routeListUser {
+  display: block;
+  line-height: 1em;
+  margin: 0.5em 0 0.75em 0;
+
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListHeader .routeListUser.disabled {
+  color: #ccc;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfo {
+  overflow: hidden;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement {
+  display: block;
+  float: left;
+  margin-right: 2%;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement .iconContainer {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement .iconContainer span {
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementRating {
+  width: 20%;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementDistance {
+  width: 30%;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementGts {
+  width: 20%;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementPorsche {
+  display: none;
+  width: 10%;
+  margin-right: 0;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementPorsche .iconContainer {
+  height: 12px;
+  width: 12px;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementPorsche .iconContainer span {
+  background-position: center bottom;
+  background-size: 100% 100%;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListGoon {
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 18px;
+  top: 50%;
+  margin-top: -9px;
+  right: 15px;
+}
+
+.contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListGoon .iconContainer {
+  width: 100%;
+  height: 100%;
+}
+
+.contentService .serviceDetailBack,.singleRouteLayer .serviceDetailBack {
+  display: none;
+}
+
+.contentService .routeDetail,.singleRouteLayer .routeDetail {
+  float: right;
+  width: 58.33333%;
+}
+
+.contentService .routeDetail .routeDetailInfoElement .icon,.singleRouteLayer .routeDetail .routeDetailInfoElement .icon {
+  display: block;
+}
+
+.contentService .routeDetail .routeDetailInfoElement .icon.filter,.singleRouteLayer .routeDetail .routeDetailInfoElement .icon.filter {
+  display: none;
+}
+
+.contentService .routeDetail .routeDetailHeader,.singleRouteLayer .routeDetail .routeDetailHeader {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailName,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailName {
+  font-size: 1.3em;
+  line-height: 1.0em;
+  font-weight: bold;
+  display: block;
+  margin-top: 0.5em;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailUser,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailUser {
+  display: block;
+  line-height: 1em;
+  margin: 1em 0 0.75em 0;
+  width: 50%;
+  float: left;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailUser.disabled,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailUser.disabled {
+  color: #ccc;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailInfo,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo {
+  float: right;
+  width: 50%;
+  text-align: right;
+  margin: 0.7em 0 0.75em 0;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement {
+  display: inline-block;
+  margin-right: 0.75em;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement .iconContainer,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement .iconContainer {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement .iconContainer span,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement .iconContainer span {
+  background-position: center center;
+  background-size: 100% 100%;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement.routeDetailInfoElementPorsche,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement.routeDetailInfoElementPorsche {
+  display: none;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement.routeDetailInfoElementPorsche .iconContainer,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement.routeDetailInfoElementPorsche .iconContainer {
+  height: 12px;
+  width: 12px;
+}
+
+.contentService .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement.routeDetailInfoElementPorsche .iconContainer span,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo .routeDetailInfoElement.routeDetailInfoElementPorsche .iconContainer span {
+  background-position: center bottom;
+  background-size: 100% 100%;
+}
+
+.contentService .routeDetail .has-images .routeDetailImages .galleryBtn,.contentService .routeDetail .has-images .routeDetailImages .routeDetailGalleryIndicatorWrapper,.singleRouteLayer .routeDetail .has-images .routeDetailImages .galleryBtn,.singleRouteLayer .routeDetail .has-images .routeDetailImages .routeDetailGalleryIndicatorWrapper {
+  display: block;
+}
+
+.contentService .routeDetail .routeDetailImages,.singleRouteLayer .routeDetail .routeDetailImages {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 74.51737%;
+  margin: 0 auto 8px auto;
+}
+
+.contentService .routeDetail .routeDetailImages .galleryBtn,.singleRouteLayer .routeDetail .routeDetailImages .galleryBtn {
+  display: none;
+  position: absolute;
+  width: 40px;
+  height: 44px;
+  top: 50%;
+  margin-top: -22px;
+}
+
+.contentService .routeDetail .routeDetailImages .galleryBtn span,.singleRouteLayer .routeDetail .routeDetailImages .galleryBtn span {
+  background-position: center;
+}
+
+.contentService .routeDetail .routeDetailImages .galleryBtn.left,.singleRouteLayer .routeDetail .routeDetailImages .galleryBtn.left {
+  left: 0%;
+  background: #fff url("../../images/shadows/vertical_top_left.png") no-repeat left top;
+}
+
+.contentService .routeDetail .routeDetailImages .galleryBtn.left span,.singleRouteLayer .routeDetail .routeDetailImages .galleryBtn.left span {
+  background-position-x: 13px;
+}
+
+.contentService .routeDetail .routeDetailImages .galleryBtn.right,.singleRouteLayer .routeDetail .routeDetailImages .galleryBtn.right {
+  right: 0%;
+  background: #fff url("../../images/shadows/vertical_top_right.png") no-repeat right top;
+}
+
+.contentService .routeDetail .routeDetailImages .galleryBtn.right span,.singleRouteLayer .routeDetail .routeDetailImages .galleryBtn.right span {
+  background-position-x: 16px;
+}
+
+.contentService .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper,.singleRouteLayer .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper {
+  display: none;
+  position: relative;
+  width: 30%;
+  text-align: center;
+  margin: 12px auto 0 auto;
+  font-size: 0;
+  line-height: 0;
+}
+
+.contentService .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper .galleryIndicator,.singleRouteLayer .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper .galleryIndicator {
+  display: inline-block;
+  margin: 0 1px;
+}
+
+.contentService .routeDetail .routeDetailImages .inner,.singleRouteLayer .routeDetail .routeDetailImages .inner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0%;
+}
+
+.contentService .routeDetail .routeDetailImages .inner .slider,.singleRouteLayer .routeDetail .routeDetailImages .inner .slider {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.contentService .routeDetail .routeDetailImages .inner .slider .sliderLoader,.singleRouteLayer .routeDetail .routeDetailImages .inner .slider .sliderLoader {
+  width: 100%;
+  height: 100%;
+}
+
+.contentService .routeDetail .routeDetailImages .inner .slider .sliderLoader img,.singleRouteLayer .routeDetail .routeDetailImages .inner .slider .sliderLoader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+  margin-top: -25px;
+}
+
+.contentService .routeDetail .routeDetailImages .inner .slider .sliderWrapper,.singleRouteLayer .routeDetail .routeDetailImages .inner .slider .sliderWrapper {
+  width: 99999px;
+  height: 100%;
+}
+
+.contentService .routeDetail .routeDetailImages .inner .slider .sliderWrapper img,.singleRouteLayer .routeDetail .routeDetailImages .inner .slider .sliderWrapper img {
+  height: 100%;
+  width: auto;
+  position: absolute;
+  top: 0;
+}
+
+.contentService .routeDetail .routeDetailFooterMobile,.singleRouteLayer .routeDetail .routeDetailFooterMobile {
+  display: none;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode {
+  width: 50%;
+  float: left;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode .iconContainer,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .iconContainer {
+  display: inline-block;
+  margin-bottom: -2px;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode .tooltip,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .tooltip {
+  position: absolute;
+  bottom: 100%;
+  margin-bottom: 5px;
+  left: -20px;
+  width: 150px;
+  padding: 0.75em 1.25em;
+  background-color: #1d3247;
+  color: #fff;
+  font-size: 0.75em;
+  line-height: 1.15em;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode .tooltip:after,.contentService .routeDetail .routeDetailFooter .routeCode .tooltip:before,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .tooltip:after,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .tooltip:before {
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+  border: solid rgba(255,255,255,0);
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode .tooltip:after,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .tooltip:after {
+  border-color: rgba(255,255,255,0);
+  border-width: 4px;
+  bottom: -8px;
+  border-top-color: #1d3247;
+  left: 0;
+  margin-left: 23px;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode .tooltip:before,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .tooltip:before {
+  border-color: rgba(255,255,255,0);
+  border-width: 5px;
+  bottom: -10px;
+  border-top-color: transparent;
+  left: 0;
+  margin-left: 22px;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode .tooltip span,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .tooltip span {
+  text-align: left;
+  display: block;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeCode .value,.singleRouteLayer .routeDetail .routeDetailFooter .routeCode .value {
+  font-weight: bold;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeMapsLink,.singleRouteLayer .routeDetail .routeDetailFooter .routeMapsLink {
+  text-align: right;
+  width: 50%;
+  float: right;
+}
+
+.contentService .routeDetail .routeDetailFooter .routeMapsLink .iconContainer,.singleRouteLayer .routeDetail .routeDetailFooter .routeMapsLink .iconContainer {
+  margin-bottom: -4px;
+}
+
+.contentService .routeDetail .routeDetailPorscheText,.singleRouteLayer .routeDetail .routeDetailPorscheText {
+  margin: 2em 0;
+}
+
+.contentService .routeDetail .routeDetailPorscheText .moreLink,.singleRouteLayer .routeDetail .routeDetailPorscheText .moreLink {
+  color: #1d3247;
+  margin-left: 7px;
+  cursor: pointer;
+}
+
+.contentService .routeDetail .routeDetailPorscheText .moreLink:hover,.singleRouteLayer .routeDetail .routeDetailPorscheText .moreLink:hover {
+  color: #bd0c1d;
+}
+
+.contentService .routeDetail .routeDetailPorscheText .moreLink .moreLinkText,.singleRouteLayer .routeDetail .routeDetailPorscheText .moreLink .moreLinkText {
+  text-decoration: underline;
+}
+
+.contentService .routeDetail .routeDetailPorscheText .remainingText,.singleRouteLayer .routeDetail .routeDetailPorscheText .remainingText {
+  display: none;
+}
+
+.contentService .routeDetail .routeDetailPorscheText .remainingTextList,.singleRouteLayer .routeDetail .routeDetailPorscheText .remainingTextList {
+  display: none;
+  margin: 1em 0 0 0;
+}
+
+.contentService .routeDetail .routeDetailPorscheText .remainingTextList .detailTextRemainingListElement,.singleRouteLayer .routeDetail .routeDetailPorscheText .remainingTextList .detailTextRemainingListElement {
+  display: block;
+}
+
+.contentService .routeDetail .routeDetailPorscheText .remainingTextList .detailTextRemainingListElement .label,.singleRouteLayer .routeDetail .routeDetailPorscheText .remainingTextList .detailTextRemainingListElement .label {
+  font-weight: bold;
+}
+
+.contentService .routeDetail .routeDetailPorscheText.full .moreLink,.contentService .routeDetail .routeDetailPorscheText.full .moreHint,.singleRouteLayer .routeDetail .routeDetailPorscheText.full .moreLink,.singleRouteLayer .routeDetail .routeDetailPorscheText.full .moreHint {
+  display: none;
+}
+
+.contentService .routeDetail .routeDetailPorscheText.full .remainingText,.singleRouteLayer .routeDetail .routeDetailPorscheText.full .remainingText {
+  display: inline;
+}
+
+.contentService .routeDetail .routeDetailPorscheText.full .remainingTextList,.singleRouteLayer .routeDetail .routeDetailPorscheText.full .remainingTextList {
+  display: block;
+}
+
+.serviceError {
+  display: block;
+  padding-bottom: 1em;
+}
+
+.serviceError .errorContainer {
+  background-color: #fff;
+}
+
+.catFavorite .routeDetailInfoElementRating .value,.catFavorite .routeDetailInfoElementRating .unit,.catProximity .routeDetailInfoElementDistance .value,.catProximity .routeDetailInfoElementDistance .unit,.catGts .routeDetailInfoElementGts .value,.catGts .routeDetailInfoElementGts .unit,.catFavorite .routeListInfoElementRating .value,.catFavorite .routeListInfoElementRating .unit,.catProximity .routeListInfoElementDistance .value,.catProximity .routeListInfoElementDistance .unit,.catGts .routeListInfoElementGts .value,.catGts .routeListInfoElementGts .unit {
+  color: #bd0c1d !important;
+}
+
+.catFavorite .routeDetailInfoElementRating .iconContainer .icon,.catProximity .routeDetailInfoElementDistance .iconContainer .icon,.catGts .routeDetailInfoElementGts .iconContainer .icon,.catFavorite .routeListInfoElementRating .iconContainer .icon,.catProximity .routeListInfoElementDistance .iconContainer .icon,.catGts .routeListInfoElementGts .iconContainer .icon {
+  display: none !important;
+}
+
+.catFavorite .routeDetailInfoElementRating .iconContainer .icon.filter,.catProximity .routeDetailInfoElementDistance .iconContainer .icon.filter,.catGts .routeDetailInfoElementGts .iconContainer .icon.filter,.catFavorite .routeListInfoElementRating .iconContainer .icon.filter,.catProximity .routeListInfoElementDistance .iconContainer .icon.filter,.catGts .routeListInfoElementGts .iconContainer .icon.filter {
+  display: block !important;
+}
+
+.backgroundsize .catFavorite .routeDetailInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon,.backgroundsize .catFavorite .routeDetailInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon.filter,.backgroundsize .catProximity .routeDetailInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon,.backgroundsize .catProximity .routeDetailInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon.filter,.backgroundsize .catGts .routeDetailInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon,.backgroundsize .catGts .routeDetailInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon.filter,.backgroundsize .catFavorite .routeListInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon,.backgroundsize .catFavorite .routeListInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon.filter,.backgroundsize .catProximity .routeListInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon,.backgroundsize .catProximity .routeListInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon.filter,.backgroundsize .catGts .routeListInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon,.backgroundsize .catGts .routeListInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.no-backgroundsize-icon.filter {
+  display: none !important;
+}
+
+.no-backgroundsize .catFavorite .routeDetailInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon,.no-backgroundsize .catFavorite .routeDetailInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon.filter,.no-backgroundsize .catProximity .routeDetailInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon,.no-backgroundsize .catProximity .routeDetailInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon.filter,.no-backgroundsize .catGts .routeDetailInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon,.no-backgroundsize .catGts .routeDetailInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon.filter,.no-backgroundsize .catFavorite .routeListInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon,.no-backgroundsize .catFavorite .routeListInfoElementRating .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon.filter,.no-backgroundsize .catProximity .routeListInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon,.no-backgroundsize .catProximity .routeListInfoElementDistance .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon.filter,.no-backgroundsize .catGts .routeListInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon,.no-backgroundsize .catGts .routeListInfoElementGts .iconContainer.no-backgroundsize-icon-container .icon.backgroundsize-icon.filter {
+  display: none !important;
+}
+
+.no-gts-moments .routeListInfoElementGts,.no-gts-moments .routeDetailFooterElementGts,.no-gts-moments .routeDetailInfoElementGts {
+  display: none !important;
+}
+
+.is-porsche-route .routeListInfoElementPorsche {
+  display: block !important;
+}
+
+.is-porsche-route .routeDetailInfoElementPorsche {
+  display: inline-block !important;
+}
+
+.no-track-code .routeDetailFooterElementCode,.no-track-code .routeCode {
+  display: none !important;
+}
+
+.singleRouteLayerWrapper {
+  display: none;
+}
+
+.show-single-track .singleRouteLayerWrapper,.show-single-track .layerDarkener {
+  display: block;
+}
+
+.singleRouteLayerWrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer {
+  width: 100%;
+  max-width: 640px;
+  padding: 2em 0;
+  margin: 2em auto;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .routeDetail {
+  float: none;
+  clear: both;
+  width: 94%;
+  padding: 0 3%;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .singleRouteLoader {
+  text-align: center;
+  padding: 8em 0;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .singleRouteLoader img {
+  width: 50px;
+  height: 50px;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .singleRouteClose {
+  -webkit-transition-property: background-color;
+  -moz-transition-property: background-color;
+  -o-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  display: block;
+  float: right;
+  text-align: right;
+  background-color: #1d3247;
+  margin: 1em 3%;
+  padding: 0 1em;
+  line-height: 3em;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .singleRouteClose .label {
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  color: #fff;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .singleRouteClose .iconContainer {
+  position: relative;
+  display: inline-block;
+  margin-bottom: -3px;
+  margin-right: 3px;
+}
+
+.no-touch .singleRouteLayerWrapper .singleRouteLayer .singleRouteClose:hover {
+  background-color: #f2f2f2;
+}
+
+.no-touch .singleRouteLayerWrapper .singleRouteLayer .singleRouteClose:hover .label {
+  color: #1d3247;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .appHintIphone {
+  display: none;
+  margin: 0 3%;
+  padding: 1em 0;
+  background-color: #f2f2f2;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .appHintIphone.first {
+  margin-bottom: 2em;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .appHintIphone.last {
+  margin-top: 2em;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .appHintIphone .appCopy {
+  display: block;
+  padding: 0 3%;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .appHintIphone .apple_appstore {
+  display: block;
+  width: 135px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.singleRouteLayerWrapper .singleRouteLayer .appHintIphone .apple_appstore .alt {
+  display: none;
+}
+
+.iphone .singleRouteLayerWrapper .singleRouteLayer .appHintIphone {
+  display: block;
+}
+
+.openInAppQuestionLayer {
+  display: none;
+}
+
+.show-open-in-app-question-layer .openInAppQuestionLayer,.show-open-in-app-question-layer .layerDarkener {
+  display: block;
+}
+
+.openInAppQuestionLayer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 100;
+  width: 100%;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner {
+  width: 100%;
+  max-width: 250px;
+  padding: 1em 1em;
+  margin: 2em auto;
+  position: relative;
+  background-color: #fff;
+  overflow: hidden;
+  *zoom: 1;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .question {
+  display: block;
+  clear: both;
+  padding-bottom: 1em;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .button.yes,.openInAppQuestionLayer .openInAppQuestionLayerInner .button.no {
+  display: block;
+  width: 49%;
+  color: #fff;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .button.yes>span,.openInAppQuestionLayer .openInAppQuestionLayerInner .button.no>span {
+  text-align: center;
+  display: block;
+  padding: .85em 1em;
+}
+
+.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .button.yes,.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .button.no {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .button.yes:hover,.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .button.no:hover {
+  background-color: #fff;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .button.yes {
+  background-color: #1d3247;
+  float: left;
+}
+
+.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .button.yes:hover {
+  color: #1d3247;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .button.no {
+  float: right;
+  background-color: #bd0c1d;
+}
+
+.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .button.no:hover {
+  color: #bd0c1d;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .appHintIphone {
+  clear: both;
+  padding: 3em 0 0 0;
+  color: #999;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .appHintIphone .button.apple_appstore {
+  display: block;
+  width: 100%;
+  color: #1d3247;
+  background-color: #f2f2f2;
+  margin: 1em 0 0 0;
+}
+
+.openInAppQuestionLayer .openInAppQuestionLayerInner .appHintIphone .button.apple_appstore>span {
+  text-align: center;
+  display: block;
+  padding: .85em 1em;
+}
+
+.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .appHintIphone .button.apple_appstore {
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+}
+
+.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .appHintIphone .button.apple_appstore:hover {
+  background-color: #fff;
+}
+
+.no-touch .openInAppQuestionLayer .openInAppQuestionLayerInner .appHintIphone .button.apple_appstore:hover {
+  color: #1b1d1f;
+}
+
+@media all and (max-width: 480px) {
+  .main {
+    min-width: 320px;
+  }
+
+  .main .header .emotional .background {
+    padding-bottom: 59.3125% !important;
+  }
+}
+
+@media all and (max-width: 640px) {
+  html {
+    font-family: "xs";
+  }
+
+  .header .porsche {
+    height: 45px;
+    padding-bottom: 30px;
+  }
+
+  .header .porsche .button.logoPorsche img {
+    margin-top: 2px;
+    width: 64px;
+    height: 40px;
+  }
+
+  .header .porsche .menu {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0px;
+    width: 41px;
+    height: 31px;
+    padding: 8px 6px 5px 6px;
+  }
+
+  .header .porsche .menu .icon {
+    border-left: 1px solid #f2f2f2;
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-size: 26px auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .header .emotional .linkBar {
+    display: none;
+  }
+
+  .russia .header .emotional div.intro,.eastern-europe .header .emotional div.intro {
+    padding-top: 1.5em;
+  }
+
+  .header .emotional div.appIntro {
+    text-align: left;
+    padding: 0;
+    width: 100%;
+  }
+
+  .header .emotional div.appIntro .inner {
+    position: relative;
+    top: -3em;
+    width: 94%;
+    padding: 0 3%;
+  }
+
+  .header .emotional div.appIntro .inner .heading {
+    display: none;
+  }
+
+  .header .emotional div.appIntro .inner p.copy {
+    margin: 0 0 0 0;
+  }
+
+  .header .emotional div.appIntro .inner .button.appinfo {
+    display: inline;
+  }
+
+  .header .emotional div.appIntro .inner .button.apple_appstore {
+    display: inline-block;
+    margin: 2em 0 0 0;
+    float: none;
+  }
+
+  .contentService .tabNavigation {
+    padding: 0.5em 3% 0 3%;
+    position: static;
+    bottom: auto;
+    background-color: #151B14;
+    overflow: hidden;
+    *zoom: 1;
+  }
+
+  .contentService .tabNavigation .tabNavigationBtn {
+    margin-right: 10px;
+  }
+
+  .contentService .contentServiceContent {
+    overflow: hidden;
+    *zoom: 1;
+  }
+
+  .contentService .contentServiceContent .tabContents {
+    float: none;
+    width: auto;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement {
+    padding: 1em 0;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement.last {
+    border-bottom: none;
+  }
+
+  .show-single-track .main-inner,.show-single-track .layerDarkener {
+    display: none;
+  }
+
+  .singleRouteLayerWrapper .singleRouteLayer {
+    margin: 0;
+  }
+
+  .singleRouteLayerWrapper .singleRouteLayer .singleRouteClose {
+    float: none;
+  }
+
+  .singleRouteLayerWrapper .singleRouteLayer .singleRouteClose.top {
+    margin-bottom: 2em;
+  }
+
+  .singleRouteLayerWrapper .singleRouteLayer .singleRouteClose.bottom {
+    margin-top: 2em;
+  }
+
+  .appInfoDetail .appInfoHeadline {
+    display: block;
+  }
+
+  .appInfoDetail .appInfoHeadline h3 {
+    margin-top: 0;
+  }
+
+  .appInfoDetail .appInfoGallery {
+    position: static;
+    float: none;
+    width: 100% !important;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner {
+    position: relative;
+    width: 100%;
+    max-width: 320px;
+    height: auto;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn {
+    top: 50%;
+    background-color: #fff;
+    border: 1px solid #f2f2f2;
+    width: 40px;
+    height: 44px;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn span {
+    background-position: center;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.left {
+    right: auto !important;
+    left: 0;
+    border-left-width: 0;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.left span {
+    background-position-x: 13px;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.right {
+    left: auto !important;
+    right: 0;
+    border-right-width: 0;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.right span {
+    background-position-x: 16px;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryIndicatorWrapper {
+    position: static;
+    top: auto;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .inner {
+    position: relative;
+    top: 0;
+    left: 0;
+    outline: 1px solid #fff;
+    padding-top: 177.01863%;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .overlay {
+    display: none;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .slider .sliderWrapper {
+    position: static;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 99999px;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .inner .slider .sliderWrapper img {
+    height: 100%;
+    width: auto;
+  }
+
+  .appInfoDetail .appInfoDetailBody {
+    float: none;
+    width: 100%;
+    padding-bottom: 0;
+  }
+
+  .appInfoDetail .appInfoDetailBody .appInfoDetailBodyHeadline {
+    display: none;
+  }
+
+  .appInfoDetail .appInfoDetailBody .apple_appstore {
+    margin: 2em auto 0 auto;
+    display: block;
+    width: 135px;
+  }
+
+  .appInfoDetail .appInfoDetailBody p {
+    padding-right: 0;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .header .emotional {
+    position: relative;
+  }
+
+  .header .emotional .requestInformation {
+    display: none;
+  }
+
+  .header .emotional .background {
+    width: 100%;
+    height: 0;
+    padding-bottom: 55.3125%;
+    background-image: url("../../images/header-image/header-image_640.jpg");
+    background-color: #151B14;
+  }
+
+  .header .emotional .intro {
+    position: static;
+    top: auto;
+    left: auto;
+    width: 94%;
+    z-index: auto;
+    padding: 1.5em 3% 0 3%;
+    background-color: #E5EFEC;
+  }
+
+  .russia .header .emotional .intro,.eastern-europe .header .emotional .intro {
+    padding-top: 50px;
+  }
+
+  .header .emotional .intro h1 {
+    font-size: 3.5em !important;
+    margin: 0;
+  }
+
+  .header .emotional .intro h2 {
+    font-size: 2.5em !important;
+  }
+
+  .header .emotional .intro .copy,.header .emotional .intro .button {
+    display: none;
+  }
+
+  .header .emotional .appIntro {
+    position: relative;
+    bottom: auto;
+    right: auto;
+    width: 94%;
+    z-index: auto;
+    padding: 0 3% 5% 3%;
+    background-color: #151B14;
+  }
+
+  .header .emotional .appIntro img {
+    display: none;
+  }
+
+  .header .emotional .appIntro .inner {
+    float: none;
+    margin: 0;
+    width: 100%;
+    margin: 0;
+  }
+
+  .header .emotional .appIntro .inner .heading {
+    position: absolute;
+    bottom: 100%;
+    right: 3%;
+    z-index: 7;
+    padding-bottom: 1.25em;
+  }
+
+  .header .emotional .appIntro .inner .heading h1 {
+    font-size: 3.5em;
+    margin: 0;
+  }
+
+  .header .emotional .appIntro .inner .heading h2 {
+    font-size: 1.25em;
+  }
+
+  .header .emotional .appIntro .inner .copy {
+    margin: 0 0 1.25em auto;
+    max-width: 320px;
+  }
+
+  .header .emotional .appIntro .inner .appinfo {
+    display: block;
+  }
+
+  .contentService {
+    padding: 0;
+    margin: 0;
+  }
+
+  .contentService .contentServiceContent .tabContents {
+    float: none;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+
+  .appInfoDetail .appInfoGallery {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    width: 38.66667%;
+    margin-right: 3%;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.left {
+    right: 103%;
+  }
+
+  .appInfoDetail .appInfoGallery .appInfoGalleryInner .galleryBtn.right {
+    left: 103%;
+  }
+
+  .footer .top {
+    padding: 0;
+  }
+
+  .footer .top .inner {
+    margin: 0 !important;
+  }
+
+  .footer .top .inner.fullWidth .footerTile,.footer .top .inner.halfWidth .footerTile,.footer .top .inner.thirdWidth .footerTile,.footer .top .inner.quarterWidth .footerTile {
+    width: 100%;
+  }
+
+  .footer .top .inner .footerTile {
+    width: 100%;
+    margin: 0 !important;
+    float: none;
+  }
+
+  .footer .top .inner .footerTile .inner {
+    padding: 1em 3%;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .footer .top .inner .footerTile .sharePanelContainer {
+    margin-top: 0.25em;
+  }
+
+  .footer .top .inner .footerTile.dialog {
+    background-color: #bd0c1d;
+  }
+
+  .footer .top .inner .footerTile.dialog * {
+    color: #fff;
+  }
+
+  .no-touch .footer .top .inner .footerTile.dialog .button {
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 0.9s;
+    -moz-transition-duration: 0.9s;
+    -o-transition-duration: 0.9s;
+    transition-duration: 0.9s;
+  }
+
+  .no-touch .footer .top .inner .footerTile.dialog .button * {
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+
+  .no-touch .footer .top .inner .footerTile.dialog .button .icon {
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+  }
+
+  .no-touch .footer .top .inner .footerTile.dialog .button:hover {
+    background-color: #fff;
+  }
+
+  .no-touch .footer .top .inner .footerTile.dialog .button:hover * {
+    color: #bd0c1d;
+  }
+
+  .no-touch .footer .top .inner .footerTile.dialog .button:hover .icon.hover {
+    display: block;
+  }
+
+  .footer .top .inner .footerTile.dialog .iconContainer {
+    display: none;
+  }
+
+  .footer .top .inner .footerTile.dialog .iconContainer.highlight {
+    display: inline-block;
+  }
+}
+
+@media all and (max-width: 900px) and (min-width: 768px) {
+  .header .emotional .appIntro .inner {
+    margin-right: 0;
+  }
+
+  .russia .header .emotional .appIntro .inner .appinfo,.eastern-europe .header .emotional .appIntro .inner .appinfo {
+    display: inline;
+  }
+
+  .header .emotional .appIntro img {
+    display: none;
+  }
+
+  .fr .footer .top .footerTile.dialog h3 {
+    width: 80%;
+  }
+
+  .it .footer .top .footerTile.dealerSearch h3,.es .footer .top .footerTile.dealerSearch h3,.pt .footer .top .footerTile.dealerSearch h3 {
+    width: 80%;
+  }
+
+  .ru .footer .top .footerTile h3 {
+    font-size: 1.3em;
+  }
+}
+
+@media all and (max-width: 960px) {
+  html {
+    font-family: "s";
+  }
+
+  .header .emotional .intro .copy,.header .emotional .intro .button {
+    display: none;
+  }
+
+  .contentService {
+    padding: 0;
+  }
+
+  .contentService .tabNavigation {
+    padding-left: 3%;
+  }
+
+  .contentService .contentServiceContent .serviceContentWrapper {
+    width: 200%;
+    overflow: hidden;
+    -webkit-transition-property: all;
+    -moz-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+    -webkit-transition-duration: 1s;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    transition-duration: 1s;
+  }
+
+  .contentService .contentServiceContent .serviceLeft,.contentService .contentServiceContent .serviceRight {
+    width: 50%;
+    float: left;
+  }
+
+  .contentService .contentServiceContent .serviceRight {
+    max-height: 0;
+    padding: 2em 0 1em 0;
+  }
+
+  .contentService .contentServiceContent .tabContents {
+    float: none;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent {
+    padding: 2em 3%;
+  }
+
+  .contentService .serviceError {
+    padding: 2em 3% 0 3%;
+  }
+
+  .contentService.show-detail .serviceRight {
+    max-height: inherit;
+  }
+
+  .contentService.show-detail .serviceContentWrapper {
+    -webkit-transform: translate(-50%);
+    -moz-transform: translate(-50%);
+    -ms-transform: translate(-50%);
+    -o-transform: translate(-50%);
+    transform: translate(-50%);
+  }
+
+  .contentService .serviceDetailBack,.singleRouteLayer .serviceDetailBack {
+    -webkit-transition-property: background-color;
+    -moz-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    display: block;
+    background-color: #1d3247;
+    margin: 1em 3%;
+    padding: 0 1em;
+    line-height: 3em;
+  }
+
+  .contentService .serviceDetailBack .label,.singleRouteLayer .serviceDetailBack .label {
+    -webkit-transition-property: color;
+    -moz-transition-property: color;
+    -o-transition-property: color;
+    transition-property: color;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    color: #fff;
+  }
+
+  .contentService .serviceDetailBack .iconContainer,.singleRouteLayer .serviceDetailBack .iconContainer {
+    position: relative;
+    display: inline-block;
+    margin-bottom: -2px;
+    margin-right: 3px;
+  }
+
+  .no-touch .contentService .serviceDetailBack:hover,.no-touch .singleRouteLayer .serviceDetailBack:hover {
+    background-color: #f2f2f2;
+  }
+
+  .no-touch .contentService .serviceDetailBack:hover .label,.no-touch .singleRouteLayer .serviceDetailBack:hover .label {
+    color: #1d3247;
+  }
+
+  .contentService .routeDetail,.singleRouteLayer .routeDetail {
+    float: none;
+    width: 94%;
+    padding: 0 3%;
+  }
+
+  .contentService .routeDetail .routeDetailHeader .routeDetailInfo,.singleRouteLayer .routeDetail .routeDetailHeader .routeDetailInfo {
+    display: none;
+  }
+
+  .contentService .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper,.singleRouteLayer .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper {
+    margin-top: 15px;
+  }
+
+  .contentService .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper .galleryIndicator,.singleRouteLayer .routeDetail .routeDetailImages .routeDetailGalleryIndicatorWrapper .galleryIndicator {
+    margin: 0 2px;
+  }
+
+  .contentService .routeDetail .routeDetailFooter,.singleRouteLayer .routeDetail .routeDetailFooter {
+    display: none;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile,.singleRouteLayer .routeDetail .routeDetailFooterMobile {
+    display: block;
+    margin: 3em 0;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .labelWrapper,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .labelWrapper {
+    width: 70%;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .labelWrapper .iconContainer,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .labelWrapper .iconContainer {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    margin-bottom: -4px;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .labelWrapper .iconContainer span,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .labelWrapper .iconContainer span {
+    background-size: 100% 100%;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .valueWrapper,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .valueWrapper {
+    text-align: right;
+    width: 30%;
+    float: right;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .icon-info-route-code,.contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .icon-double-nav,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .icon-info-route-code,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .icon-double-nav {
+    display: inline-block;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .valueWrapper,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement .valueWrapper {
+    font-weight: bold;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip {
+    position: absolute;
+    bottom: 100%;
+    margin-bottom: 5px;
+    right: -20px;
+    width: 150px;
+    padding: 0.75em 1.25em;
+    background-color: #1d3247;
+    color: #fff;
+    font-size: 0.75em;
+    line-height: 1.15em;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:after,.contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:before,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:after,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:before {
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border: solid rgba(255,255,255,0);
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:after,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:after {
+    border-color: rgba(255,255,255,0);
+    border-width: 4px;
+    bottom: -8px;
+    border-top-color: #1d3247;
+    right: 0;
+    margin-right: 23px;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:before,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip:before {
+    border-color: rgba(255,255,255,0);
+    border-width: 5px;
+    bottom: -10px;
+    border-top-color: transparent;
+    right: 0;
+    margin-right: 22px;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip span,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .tooltip span {
+    text-align: left;
+    display: block;
+  }
+
+  .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .icon-info-route-code,.singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementCode .icon-info-route-code {
+    margin-bottom: -2px;
+  }
+
+  .no-touch .contentService .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementMapsCode:hover *,.no-touch .singleRouteLayer .routeDetail .routeDetailFooterMobile .routeDetailFooterElement.routeDetailFooterElementMapsCode:hover * {
+    color: #bd0c1d;
+  }
+
+  .service-show-detail .appInfoDetail,.service-show-detail .footer {
+    display: none;
+  }
+}
+
+@media all and (min-width: 961px) {
+  html {
+    font-family: "m";
+  }
+}
+
+@media all and (max-width: 960px) and (min-width: 641px) {
+  .contentService .contentServiceContent {
+    overflow: hidden;
+    *zoom: 1;
+  }
+
+  .contentService .contentServiceContent .tabContents {
+    float: none;
+    width: 100%;
+    padding-bottom: 2em;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement {
+    overflow: hidden;
+    *zoom: 1;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement.last {
+    border-bottom: none;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListHeader {
+    float: left;
+    width: 35%;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListFooter {
+    padding-top: 1em;
+    float: left;
+    width: 60%;
+    padding-bottom: 20px;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement {
+    display: inline-block;
+    margin-right: 1em;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement .iconContainer {
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    margin-bottom: -6px;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement .iconContainer span {
+    background-size: 100% 100%;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementPorsche {
+    margin-left: -7px;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementPorsche .iconContainer {
+    height: 24px;
+    width: 24px;
+    margin-bottom: -6px;
+  }
+
+  .contentService .contentServiceContent .tabContents .tabContent .routeList .routeListElement .routeListInfoElement.routeListInfoElementPorsche .iconContainer span {
+    background-size: 100% 100%;
+  }
+}
+
+
+.header-top {
+  padding-bottom: 30px;
+}
+
+
+@media all and (max-width: 960px) and (min-width: 768px) {
+  .header .emotional .headerEconomy .underline {
+    display: block;
+  }
+}
+
+@media all and (max-width: 1023px) {
+  .footer .bottom {
+    background-color: #f2f2f2;
+  }
+}
+
+@media all and (max-width: 1024px) and (min-width: 768px) {
+  .header .emotional {
+    position: relative;
+  }
+
+  .header .emotional .background {
+    width: 100%;
+    height: 0;
+    padding-bottom: 55.37109%;
+    background-image: url("../../images/header-image/header-image_1024.jpg");
+  }
+}
+
+@media all and (min-width: 1025px) {
+  html {
+    font-family: "l";
+  }
+
+  .main {
+    max-width: 1440px;
+    background-image: url("../../images/header-image/header-image_1440.jpg");
+    background-position: center 90px;
+    background-repeat: no-repeat;
+  }
+
+  .header .emotional .background {
+    width: 100%;
+    height: 567px;
+  }
+}
+
+@media all and (min-width: 1044px) {
+  .device-template-loader-ready body {
+    background-image: url("../../images/background/pattern.png");
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    background-attachment: fixed;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "ThrillRoutes",
+  "version": "0.0.1",
+  "description": "quick poc for dealers",
+  "main": "server.js",
+  "dependencies": {
+    "express": "~4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martenc/POC-ThrillRoutes.git"
+  },
+  "author": "Marten",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/martenc/POC-ThrillRoutes/issues"
+  }
+}
