@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+.module-cache
+.codekit-cache/
+config.codekit
+_assets/
+assets/css/.sass-cache/
+*.ai
